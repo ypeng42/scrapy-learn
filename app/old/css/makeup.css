@@ -1,0 +1,51 @@
+
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.legend {
+    padding: 5px;
+    font-size: 12px;
+    font-family: sans-serif;
+    box-shadow: 2px 2px 1px #888;
+}
+            
+.tooltip {
+    position: absolute;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    /*width: 160px;
+    height: 58px;*/
+    font: 14px sans-serif;    
+    background: lightsteelblue; 
+    border: 0px;    
+    border-radius: 8px;
+    pointer-events: none;
+}
+            
+div#picked_product_info_div {
+	float: left;
+	margin-right: 100px;
+	width: 45%;
+}
+
+#origin_vis {
+    margin-right: 160px;
+}
+
+.axis path {
+    fill: none;
+    stroke: #777;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    font-family: Lato;
+    font-size: 13px;
+}
