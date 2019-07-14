@@ -125,10 +125,6 @@ class ProductInfoItem(scrapy.Item):
         return "rating_count"
 
     @staticmethod
-    def get_rating():
-        return "rating"
-
-    @staticmethod
     def get_page_status():
         return "page_status"
 
